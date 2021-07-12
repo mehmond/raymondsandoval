@@ -6,7 +6,7 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root {
   --first-color: #4070f4;
   --second-color: #0e2431;
@@ -27,7 +27,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root {
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -318,6 +318,21 @@ img {
   border-radius: 0.5rem;
 }
 
+/* ===== WORK EXP =====*/
+.work-exp__company {
+  margin-bottom: var(--mb-0);
+}
+.work-exp__title {
+  margin-bottom: var(--mb-1);
+  margin-top: var(--mb-0);
+}
+.work-exp__description {
+  margin-bottom: var(--mb-0);
+}
+.certification__description {
+  margin-bottom: var(--mb-2);
+  text-align: center;
+}
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
@@ -450,6 +465,12 @@ img {
     width: 360px;
   }
   .contact__container {
+    justify-items: center;
+  }
+  .work-exp__container {
+    justify-items: center;
+  }
+  .certification__container {
     justify-items: center;
   }
 }

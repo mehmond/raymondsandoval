@@ -54,5 +54,13 @@ sr.reveal(".skills__img", { delay: 200 });
 /*SCROLL WORK*/
 sr.reveal(".work__img", { interval: 200 });
 
+/*SCROLL WORK-EXP*/
+sr.reveal(".work-exp__company", { interval: 200 });
+sr.reveal(".work-exp__title", { interval: 200 });
+sr.reveal(".work-exp__description", { interval: 200 });
+
+/*SCROLL CERTIFICATION*/
+sr.reveal(".certification__description", { interval: 200 });
+
 /*SCROLL CONTACT*/
 sr.reveal(".contact__input", { interval: 200 });

@@ -11,7 +11,7 @@
       href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
       rel="stylesheet"
     />
-
+      <link rel="icon" href="assets/img/icon.png">
     <title>Raymond Sandoval</title>
   </head>
   <body>
@@ -21,7 +21,6 @@
         <div>
           <a href="#" class="nav__logo">Raymond</a>
         </div>
-
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
@@ -34,11 +33,16 @@
               <a href="#skills" class="nav__link">Skills</a>
             </li>
             <li class="nav__item">
+              <a href="#work" class="nav__link">Work Experience</a>
+            </li>
+            <li class="nav__item">
+              <a href="#certification" class="nav__link">Certifications</a>
+            </li>
+            <li class="nav__item">
               <a href="#contact" class="nav__link">Contact</a>
             </li>
           </ul>
         </div>
-
         <div class="nav__toggle" id="nav-toggle">
           <i class="bx bx-menu"></i>
         </div>
@@ -175,41 +179,46 @@
         </div>
       </section>
 
-      <!--===== CONTACT =====-->
-      <section class="contact section" id="contact">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact__container bd-grid">
-          <form action="emailme.php" method="GET" class="contact__form">
-            <input type="text" placeholder="Name" class="contact__input" name="name" />
-            <input type="mail" placeholder="Email" class="contact__input" name="email" />
-            <textarea
-              name="message"
-              id=""
-              cols="0"
-              rows="10"
-              class="contact__input"
-            ></textarea>
-            <input
-              type="submit"
-              value="Send"
-              name="emailme"
-              class="contact__button button"
-            />
-          </form>
+      <!--===== WORK-EXP =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="work-exp__container bd-grid">
+          <h1 class="work-exp__company">Taleo System Solutions</h1>
+          <h3 class="work-exp__title">Web Developer (Intern)</h3>
+          <h4 class="work-exp__description">&#187; Create and test applications for websites.</h4>
+          <h4 class="work-exp__description">&#187; Troubleshoot website problems.</h4>
+          <h4 class="work-exp__description">&#187; Integrate data from various back-end services and databases</h4>
         </div>
+      </section>
+
+      <!--===== CERTIFICATIONS =====-->
+      <section class="certification section" id="certification">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certification__container bd-grid">
+          <h2 class="certification__description">&#8620; April 2021 - Data Protection, System Administration Roles and Python Programming| Trimex Colleges</h2>
+          <h2 class="certification__description">&#8620; April 2021 - Technopreneurship in New Normal |Trimex Colleges</h2>
+          <h2 class="certification__description">&#8620; April 2021 - Creative Design, The simplest Way |Trimex Colleges</h2>
+          <h2 class="certification__description">&#8620; Mar 2019 – 4th Annual ISITE Regional Research Conference and Presentation in IT Education (IRRCITE) and IT Competition | FAITH University</h2>
+          <h2 class="certification__description">&#8620; Dec 2018 – Promoting a Culture of Innovation Research |Trimex Colleges</h2>
+          <h2 class="certification__description">&#8620; Mar 2018 – 3rd Annual ISITE Regional Research Conference and Presentation in IT Education (IRRCITE) and IT Competition |University of Batangas</h2>
+          <h2 class="certification__description">&#8620; Feb 2018 – Emerging Technology |Trimex Colleges</h2>
+          <h2 class="certification__description">&#8620; Mar 2019 – Novel Approach on Game Development |Trimex Colleges</h2>
+        </div>
+          
       </section>
     </main>
 
     <!--===== FOOTER =====-->
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <p class="footer__title">Raymond</p>
       <div class="footer__social">
         <a href="https://www.facebook.com/mehmond/" class="footer__icon"><i class="bx bxl-facebook"></i></a>
         <a href="https://www.linkedin.com/in/raymond-sandoval-4724451b6/" class="footer__icon"
             ><i class="bx bxl-linkedin"></i
           ></a>
-          <a href="" class="footer__icon"><i class="bx bxl-github"></i></a>
+          <a href="https://github.com/mehmond" class="footer__icon"><i class="bx bxl-github"></i></a>
       </div>
+      <p>raymondramossandoval@gmail.com</p>
     </footer>
 
     <!--===== SCROLL REVEAL =====-->
