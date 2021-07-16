@@ -38,7 +38,7 @@ sr.reveal(".home__title", { origin: "left" });
 sr.reveal(".home__detail", { origin: "left" });
 sr.reveal(".button", { delay: 200, origin: "left" });
 sr.reveal(".home__img", { delay: 400, origin: "right" });
-sr.reveal(".home__social-icon", { interval: 200, origin: "left"  });
+sr.reveal(".home__social-icon", { interval: 200 });
 
 /*SCROLL ABOUT*/
 sr.reveal(".about__img", {});
